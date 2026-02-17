@@ -37,7 +37,7 @@ const Hero = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             className="text-zinc-400 max-w-xl text-lg leading-relaxed mx-auto md:mx-0"
                         >
-                            Passionate about building scalable web and mobile applications using React, Node.js, Flutter, and Firebase.
+                            Passionate about building scalable web and mobile applications using React, Node.js, SpringBoot, Flutter, and Firebase.
                             Focused on creating user-centric digital experiences.
                         </motion.p>
 
