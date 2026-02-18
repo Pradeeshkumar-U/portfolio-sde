@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send, Code2 } from "lucide-react";
 
 const Contact = () => {
     return (
@@ -59,6 +59,9 @@ const Contact = () => {
                         <a href="https://www.linkedin.com/in/pradeeshkumar-u/" target="_blank" rel="noopener noreferrer" className="p-3 bg-zinc-800 rounded-lg text-zinc-400 hover:text-white hover:bg-zinc-700 transition-all">
                             <Linkedin size={24} />
                         </a>
+                        <a href="https://leetcode.com/u/Pradeeshkumar-U/" target="_blank" rel="noopener noreferrer" className="p-3 bg-zinc-800 rounded-lg font-bold text-zinc-400 hover:text-white hover:bg-zinc-700 transition-all">
+                            <Code2 />
+                        </a>
                     </div>
                 </div>
 
@@ -97,7 +100,7 @@ const Contact = () => {
                     </div>
                     <button
                         type="submit"
-                        className="w-full py-4 bg-amber-500 text-black font-bold rounded-lg hover:bg-amber-400 transition-colors flex items-center justify-center gap-2 cursor-pointer"
+                        className="w-full py-4 bg-amber-500 text-white font-semibold tracking-widest rounded-lg hover:bg-amber-400 transition-colors flex items-center justify-center gap-2 cursor-pointer"
                     >
                         Send Message <Send size={18} />
                     </button>

@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled || isOpen ? "bg-zinc-900/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled || isOpen ? "bg-zinc-900/20 backdrop-blur-2xl shadow-lg p-4" : "bg-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 py-4 flex justify-end md:justify-center items-center">
@@ -39,7 +39,7 @@ const Navbar = () => {
                             smooth={true}
                             duration={500}
                             offset={-70}
-                            className="text-zinc-400 hover:text-white cursor-pointer transition-colors text-sm font-medium uppercase tracking-wide"
+                            className="text-zinc-400 hover:text-white font-md tracking-[3px] cursor-pointer transition-colors text-sm uppercase"
                         >
                             {link.name}
                         </Link>
