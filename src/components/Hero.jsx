@@ -37,7 +37,7 @@ const Hero = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             className="text-zinc-400 max-w-xl text-lg leading-relaxed mx-auto md:mx-0"
                         >
-                            Passionate about building scalable mobile applications using Node.js, Flutter, and Firebase.
+                            Passionate about building scalable mobile applications using Node.js, Flutter, Supabase and Firebase.
                             Focused on creating user-centric digital experiences.
                         </motion.p>
 
@@ -75,7 +75,7 @@ const Hero = () => {
                     >
                         <div className="relative w-64 h-64 md:w-80 md:h-80 border-2 border-zinc-800 rounded-full flex items-center justify-center bg-zinc-900/50 backdrop-blur-sm overflow-hidden">
                             <img
-                                src="/portfolio.png"
+                                src="/portfolio.jpg"
                                 alt="Pradeeshkumar U"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
