@@ -22,7 +22,7 @@ const Projects = () => {
         {
             title: "Tamil FM App",
             category: "Mobile App",
-            description: "Real-time radio streaming app with 15,000+ downloads. Optimized audio playback and production-ready performance.",
+            description: "Real-time radio streaming app with 20,000+ downloads. Optimized audio playback and production-ready performance.",
             stack: ["Flutter", "Dart", "PostgreSQL", "Express.js", "Node.js", "Play Store"],
             links: { demo: "https://play.google.com/store/apps/details?id=com.lazyPanda.Diwan" },
             image: "/projects/tamilfm.png"
