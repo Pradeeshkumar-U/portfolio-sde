@@ -21,7 +21,7 @@ const About = () => {
 
                 <div className="grid grid-cols-2 gap-4">
                     <div className="bg-zinc-800 p-6 rounded-lg text-center hover:bg-zinc-700 transition-colors border border-zinc-700">
-                        <h3 className="text-3xl font-bold text-amber-500">15k+</h3>
+                        <h3 className="text-3xl font-bold text-amber-500">20k+</h3>
                         <p className="text-sm text-zinc-400 mt-2">App Downloads</p>
                     </div>
                     <div className="bg-zinc-800 p-6 rounded-lg text-center hover:bg-zinc-700 transition-colors border border-zinc-700">
@@ -29,7 +29,7 @@ const About = () => {
                         <p className="text-sm text-zinc-400 mt-2">Projects Completed</p>
                     </div>
                     <div className="bg-zinc-800 p-6 rounded-lg text-center hover:bg-zinc-700 transition-colors border border-zinc-700">
-                        <h3 className="text-3xl font-bold text-amber-500">8.6</h3>
+                        <h3 className="text-3xl font-bold text-amber-500">8.73</h3>
                         <p className="text-sm text-zinc-400 mt-2">CGPA</p>
                     </div>
                     <div className="bg-zinc-800 p-6 rounded-lg text-center hover:bg-zinc-700 transition-colors border border-zinc-700">
