@@ -16,7 +16,7 @@ const Experience = () => {
         {
             role: "Mobile App Developer",
             company: "Onekit Inc",
-            period: "Jul 2025 – Present",
+            period: "Jul 2025 – Sep 2025",
             description: [
                 "Building a cross-platform ticket booking mobile application using Flutter.",
                 "Integrating Firebase Authentication, Firestore, and Cloud Functions for real-time data.",
