@@ -18,9 +18,9 @@ const Experience = () => {
             company: "Onekit Inc",
             period: "Jul 2025 – Sep 2025",
             description: [
-                "Building a cross-platform ticket booking mobile application using Flutter.",
-                "Integrating Firebase Authentication, Firestore, and Cloud Functions for real-time data.",
-                "Designing efficient Firestore data schemas and backend workflows.",
+                "Built a cross-platform ticket booking mobile application using Flutter.",
+                "Integrated Firebase Authentication, Firestore, and Cloud Functions for real-time data.",
+                "Designed efficient Firestore data schemas and backend workflows.",
             ],
         },
     ];
