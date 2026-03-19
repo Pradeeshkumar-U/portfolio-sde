@@ -22,7 +22,7 @@ const Education = () => {
 
                     <div className="text-right md:text-right w-full md:w-auto">
                         <span className="block text-amber-500 font-bold text-lg">2023 - 2027</span>
-                        <span className="block text-zinc-400 text-sm mt-1">CGPA: 8.7/10</span>
+                        <span className="block text-zinc-400 text-sm mt-1">CGPA: 8.73/10</span>
                     </div>
                 </div>
             </div>
