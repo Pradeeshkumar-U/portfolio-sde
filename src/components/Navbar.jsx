@@ -18,8 +18,10 @@ const Navbar = () => {
     const navLinks = [
         { name: "About", to: "about" },
         { name: "Experience", to: "experience" },
-        // Projects link removed as per request to only keep in Hero
+        { name: "Projects", to: "projects" },
         { name: "Skills", to: "skills" },
+        { name: "Education", to: "education" },
+        { name: "Certifications", to: "certifications" },
         { name: "Contact", to: "contact" },
     ];
 

@@ -37,8 +37,7 @@ const Hero = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             className="text-zinc-400 max-w-xl text-lg leading-relaxed mx-auto md:mx-0"
                         >
-                            Passionate about building scalable mobile applications using Node.js, Springboot, Flutter, Supabase and Firebase.
-                            Focused on creating user-centric digital experiences.
+                            Aspiring Software Engineer experienced in building scalable mobile and backend applications with Node.js, Express.js, .NET, Spring Boot, and Flutter, using MongoDB, Firebase, Supabase, and PostgreSQL. Solved 150+ LeetCode problems.
                         </motion.p>
 
                         <motion.div
