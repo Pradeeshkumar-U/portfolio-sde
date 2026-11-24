@@ -24,8 +24,8 @@ const Projects = () => {
             category: "Campus Mobile Application",
             description: "Built and deployed a Flutter-based mobile application for QR-based meal tracking with real-time validation, preventing duplicate attendance. Developed a Spring Boot backend with database integration for secure authentication and scan logging.",
             stack: ["Flutter", "Dart", "Spring Boot", "REST APIs", "Database Integration"],
-            links: { demo: "" },
-            image: "/projects/kpriet.svg"
+            links: { demo: "https://play.google.com/store/apps/details?id=com.kpriet.hosteller.student" },
+            image: "/projects/kpriet.png"
         },
     ];
 
