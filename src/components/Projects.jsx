@@ -4,28 +4,28 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
     const projects = [
         {
-            title: "HireAI Website",
-            category: "Agentic AI Platform",
-            description: "End-to-end automated recruitment platform using agentic AI to screen resumes, conduct quizzes, and schedule interviews.",
-            stack: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Redis", "AI Integration"],
-            links: { demo: "https://ai-hiring-manager-six.vercel.app/" },
-            image: "/projects/hireai.png"
+            title: "Tamil FM Radio",
+            category: "Mobile App • 25,000+ Downloads",
+            description: "Built and deployed a Flutter-based mobile application for real-time radio streaming with optimized audio playback, achieving 25,000+ downloads. Managed application data in PostgreSQL and developed a Node.js admin backend for secure content management.",
+            stack: ["Flutter", "Dart", "PostgreSQL", "Node.js", "Express.js", "Play Store"],
+            links: { demo: "https://play.google.com/store/apps/details?id=com.lazyPanda.Diwan" },
+            image: "/projects/tamilfm.png"
         },
         {
             title: "IEEE 519 Limit Finder",
             category: "Subscription Platform",
-            description: "Production-ready subscription platform managing recurring plans and access control with secure REST APIs.",
+            description: "Architected a production-ready subscription platform to manage recurring plans, user access control, and subscription state transitions. Designed optimized MongoDB data models and exposed secure REST APIs.",
             stack: ["Flutter", "Dart", "MongoDB", "Express.js", "Node.js", "Play Store"],
             links: { demo: "https://play.google.com/store/apps/details?id=com.foretec.tdd" },
             image: "/projects/ieee.png"
         },
         {
-            title: "Tamil FM App",
-            category: "Mobile App",
-            description: "Real-time radio streaming app with 20,000+ downloads. Optimized audio playback and production-ready performance.",
-            stack: ["Flutter", "Dart", "PostgreSQL", "Express.js", "Node.js", "Play Store"],
-            links: { demo: "https://play.google.com/store/apps/details?id=com.lazyPanda.Diwan" },
-            image: "/projects/tamilfm.png"
+            title: "KPRIET Hostellers App",
+            category: "Campus Mobile Application",
+            description: "Built and deployed a Flutter-based mobile application for QR-based meal tracking with real-time validation, preventing duplicate attendance. Developed a Spring Boot backend with database integration for secure authentication and scan logging.",
+            stack: ["Flutter", "Dart", "Spring Boot", "REST APIs", "Database Integration"],
+            links: { demo: "" },
+            image: "/projects/kpriet.svg"
         },
     ];
 
@@ -86,9 +86,21 @@ const Projects = () => {
                             </div>
 
                             <div className="mt-auto flex gap-4 pt-4 border-t border-zinc-800">
-                                <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-white hover:text-amber-500 transition-colors">
-                                    <ExternalLink size={16} /> View Deployment
-                                </a>
+                                {project.links?.demo ? (
+                                    <a
+                                        href={project.links.demo}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center gap-2 text-sm text-white hover:text-amber-500 transition-colors"
+                                    >
+                                        <ExternalLink size={16} />
+                                        {project.links.demo.includes("play.google.com") ? "Play Store" : "View Deployment"}
+                                    </a>
+                                ) : (
+                                    <span className="flex items-center gap-2 text-sm text-zinc-400">
+                                        <ExternalLink size={16} /> Production App
+                                    </span>
+                                )}
                             </div>
                         </div>
                     </div>

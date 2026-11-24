@@ -4,23 +4,23 @@ import { Calendar, Briefcase } from "lucide-react";
 const Experience = () => {
     const experiences = [
         {
+            role: "Trainee - Member of Technical Staff",
+            company: "GoML",
+            period: "Jun 2026 – Present",
+            description: [
+                "Develop and maintain scalable cross-platform mobile application features using Flutter and Dart for a government application, delivering reliable and user-friendly experiences.",
+                "Build responsive mobile interfaces and integrate RESTful APIs to support core application functionalities, ensuring smooth data flow between the mobile application and backend services.",
+                "Implement application state management, handle API responses and error scenarios, and collaborate with backend and development teams to deliver reliable, maintainable mobile application features.",
+            ],
+        },
+        {
             role: "Software Developer Intern",
             company: "Foretec Electric",
             period: "Dec 2025 – Jan 2026",
             description: [
-                "Implemented a subscription management system with secure monthly recurring payments.",
-                "Designed a scalable backend using MongoDB and Express.js with JWT-based authentication.",
-                "Enforced single-device access per subscription by validating device-level usage.",
-            ],
-        },
-        {
-            role: "Mobile App Developer",
-            company: "Onekit Inc",
-            period: "Jul 2025 – Sep 2025",
-            description: [
-                "Built a cross-platform ticket booking mobile application using Flutter.",
-                "Integrated Firebase Authentication, Firestore, and Cloud Functions for real-time data.",
-                "Designed efficient Firestore data schemas and backend workflows.",
+                "Implemented a subscription management system with secure monthly recurring payments and automated subscription lifecycle handling.",
+                "Designed a scalable backend using MongoDB and enhanced the Node.js server with JWT-based authentication for secure user and subscription management.",
+                "Enforced single-device access per subscription by detecting multiple account activations and validating device-level usage.",
             ],
         },
     ];

@@ -3,20 +3,20 @@ import Section from "./Section";
 const Skills = () => {
     const skillCategories = [
         {
-            title: "Languages & Core",
-            skills: ["Java", "Python", "Dart", "SQL"],
+            title: "Languages",
+            skills: ["Java", "Python", "SQL", "Dart", "C#", "JavaScript"],
         },
         {
-            title: "Frameworks & Libraries",
-            skills: ["Node.js", "Express.js", "Flutter"],
+            title: "Frameworks & Backend",
+            skills: ["Flutter", "Spring Boot", "Express.js", "Node.js", "FastAPI", ".NET", "TensorFlow"],
         },
         {
             title: "Databases & Cloud",
-            skills: ["MongoDB", "PostgreSQL", "Redis", "Firebase"],
+            skills: ["MongoDB", "PostgreSQL", "Supabase", "Firebase", "VectorDB"],
         },
         {
             title: "Tools & DevOps",
-            skills: ["Git", "GitHub", "VS Code", "Postman"],
+            skills: ["Git", "GitHub", "Docker", "Linux (Ubuntu)", "Vercel", "Postman"],
         },
     ];
 
