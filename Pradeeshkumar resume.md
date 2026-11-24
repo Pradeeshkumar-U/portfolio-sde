@@ -40,7 +40,7 @@ Dec 2025 – Jan 2026
 
 ## Projects
 
-## KPRIET Hostellers App play store
+## KPRIET Hostellers App [play store](https://play.google.com/store/apps/details?id=com.kpriet.hosteller.student)
 
 - Built and deployed a Flutter-based mobile application for QR-based meal tracking with real-time validation, preventing duplicate attendance across multiple sessions daily.
 
